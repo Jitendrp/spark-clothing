@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.navbar-nav li.nav-item a {
+  font-weight: bold;
+  font-size: 18px;
+}
+.carousel-wrap-items img {
+  width: 35% !important;
+  height: 300px;
+}
+form.d-flex.search-placeholder {
+  margin-left: auto;
+  width: 40%;
+}
+.search-icon {
+  position: relative;
+  left: -6%;
+  background-color: grey;
+  font-size: 30px;
+  border: none;
+}
+.carousel-caption.d-none.d-md-block {
+  top: 20%;
+  left: 50%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: grey;
+  height: 58px !important;
+  border-radius: 2px;
+}
+.categories li.nav-item a.active {
+  background-color: #00ffa49e;
+  border-radius: 2px;
+  border: 1px solid lightslategrey;
+}
+/** About Page Styling start Here **/
+h4.about-first-content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+p.about-second-content, p.about-third-content {
+  font-size: 17px;
+}
+/** About Page Styling ends Here **/
+/* Footer Styling Starts */
+footer .navbar-nav li.nav-item a {
+  color: rgb(255 255 255 / 55%);
+}
+footer .navbar-nav .nav-link.active,
+footer .navbar-nav .nav-link.show {
+  color: #fff;
+}
+/* Footer Styling Ends */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .carousel-width {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  footer ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 35px;
+    justify-content: space-evenly;
+  }
+  footer.bg-dark {
+    padding-bottom: 30px !important;
+    padding-top: 20px !important;
+  }
+  footer p.mt-0.mb-0.text-white {
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  footer .row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
